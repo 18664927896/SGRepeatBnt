@@ -1,0 +1,22 @@
+{
+  "name": "SGRepeatBnt",
+  "version": "0.1.0",
+  "summary": "A short description of SGRepeatBnt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18664927896/SGRepeatBnt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18664927896": "shang464708476@163.com"
+  },
+  "source": {
+    "git": "https://github.com/18664927896/SGRepeatBnt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SGRepeatBnt/Classes/**/*"
+}

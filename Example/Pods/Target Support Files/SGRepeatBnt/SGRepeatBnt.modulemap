@@ -1,0 +1,6 @@
+framework module SGRepeatBnt {
+  umbrella header "SGRepeatBnt-umbrella.h"
+
+  export *
+  module * { export * }
+}

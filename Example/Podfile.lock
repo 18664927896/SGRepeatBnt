@@ -1,0 +1,16 @@
+PODS:
+  - SGRepeatBnt (0.1.0)
+
+DEPENDENCIES:
+  - SGRepeatBnt (from `../`)
+
+EXTERNAL SOURCES:
+  SGRepeatBnt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGRepeatBnt: 6e9a5658a3579cc6e0ae7bbef47e891a3c00ede7
+
+PODFILE CHECKSUM: e3e1db72e74b4f133b0a44178cc407d6de50b4be
+
+COCOAPODS: 1.9.3

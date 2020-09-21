@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EF40907C82B42B4AC852AE586EC17E /* SGRepeatBnt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2DC2DDB0239AC73971FC95593ABCBA /* SGRepeatBnt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B7C14C0F52C2CB7257C8CA197215389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49BB4356B45C32082AEFF2B686811BCB /* Pods-SGRepeatBnt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB3E37FA89F21E03B65B8795BB82A82 /* Pods-SGRepeatBnt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59637AF36489DD7D5C60CBBB03964C8D /* SGRepeatBnt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AAEA2896A40B2B8D795FDA02EEE7C9 /* SGRepeatBnt-dummy.m */; };
+		65AA5F36376E2C723F72430CA7EC2919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		89F434D760573D94746AEAA4F26DF74C /* Pods-SGRepeatBnt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F309437A32A882B7B2028D1B0244A547 /* Pods-SGRepeatBnt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF3228507ACF0F75B582AE69FA7D3E4 /* SGButton+Repeat.h in Headers */ = {isa = PBXBuildFile; fileRef = FC44983E8A9A1B36DB6B807C42614BE0 /* SGButton+Repeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA88ED2A51606E701462D67838F4B02E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4FCA42FCC405F930E89ABF1F3D0F5A8 /* SGButton+Repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BC66985468F858840170051418B804 /* SGButton+Repeat.m */; };
+		F0687DC980035B35FA277B566C61A2C4 /* Pods-SGRepeatBnt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C9DE9DA177AFF59382A3E2D36722A /* Pods-SGRepeatBnt_Example-dummy.m */; };
+		F358A0D7D8F26879868D0F80954E3FF4 /* Pods-SGRepeatBnt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DB1AF9FDEC7D34FC2778D65956FC67 /* Pods-SGRepeatBnt_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01814119B9E99D484BF0BD626912D88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6DDA1753A74BB38A1EF08425356888B;
+			remoteInfo = "Pods-SGRepeatBnt_Example";
+		};
+		3334B6B738570FDBEC9ED82805B40563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90C82DF7E0597DB916AA804CD7DDD1F;
+			remoteInfo = SGRepeatBnt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A410313905BFB5AACDAF0B2DCAA6B2B /* Pods-SGRepeatBnt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGRepeatBnt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		479C584E2AE4FAFE74450E6FC9AC6BF4 /* Pods-SGRepeatBnt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGRepeatBnt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4EAEC21D69CB5514E931DA42019C4872 /* Pods-SGRepeatBnt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGRepeatBnt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		550758322A19E86CC99C09355769CFB9 /* SGRepeatBnt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGRepeatBnt.modulemap; sourceTree = "<group>"; };
+		59648FE9055FF493FA39ADD1FFFC9364 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		64A5AE738A5D73CB8CEE01E0079C0796 /* Pods_SGRepeatBnt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGRepeatBnt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680E34EF982E944F4820C85DDABE6793 /* Pods-SGRepeatBnt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGRepeatBnt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A0C9DE9DA177AFF59382A3E2D36722A /* Pods-SGRepeatBnt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGRepeatBnt_Example-dummy.m"; sourceTree = "<group>"; };
+		6A2DC2DDB0239AC73971FC95593ABCBA /* SGRepeatBnt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGRepeatBnt-umbrella.h"; sourceTree = "<group>"; };
+		73DD722525C81474E7885B3798E2B922 /* Pods-SGRepeatBnt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGRepeatBnt_Tests.modulemap"; sourceTree = "<group>"; };
+		76BC66985468F858840170051418B804 /* SGButton+Repeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SGButton+Repeat.m"; path = "SGRepeatBnt/Classes/SGButton+Repeat.m"; sourceTree = "<group>"; };
+		78DB1AF9FDEC7D34FC2778D65956FC67 /* Pods-SGRepeatBnt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGRepeatBnt_Tests-dummy.m"; sourceTree = "<group>"; };
+		7F7A02AD45373D4936AF1C031CEC118E /* Pods-SGRepeatBnt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGRepeatBnt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		826BAB579C6F45553ABD3ACC55153020 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A29AD27E0AD47D95F66F29B0965A8F6 /* Pods-SGRepeatBnt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGRepeatBnt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD6BD27D737DB623EA5E15C481D9DB8 /* SGRepeatBnt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGRepeatBnt-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADD7C2C489B7D5C467FCCF99385F3007 /* SGRepeatBnt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGRepeatBnt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AAEA2896A40B2B8D795FDA02EEE7C9 /* SGRepeatBnt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGRepeatBnt-dummy.m"; sourceTree = "<group>"; };
+		B3C2210009A2D85051ACE8265319B725 /* Pods-SGRepeatBnt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGRepeatBnt_Example.modulemap"; sourceTree = "<group>"; };
+		B41F6B360D86EBE2393A2ED8B674DFD7 /* SGRepeatBnt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGRepeatBnt.debug.xcconfig; sourceTree = "<group>"; };
+		CC32DB7C6387CACD49C6C20CB3C3E3F9 /* SGRepeatBnt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SGRepeatBnt.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CC594A09F77F9BA5C22317ADA6D26DAE /* Pods_SGRepeatBnt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGRepeatBnt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8C91FDEF820D05C609A2F4CAE8E107 /* Pods-SGRepeatBnt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGRepeatBnt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB3E37FA89F21E03B65B8795BB82A82 /* Pods-SGRepeatBnt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGRepeatBnt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D4530AF67D48076C2F0B499561FD5CBC /* Pods-SGRepeatBnt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGRepeatBnt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D4DA4C87E26A2B00B490E0822EC90133 /* Pods-SGRepeatBnt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGRepeatBnt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAA9FD764706558F8A8C6466D73A767C /* SGRepeatBnt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGRepeatBnt.release.xcconfig; sourceTree = "<group>"; };
+		DB1E513F745FD6AAF04BBCA47F859BC2 /* SGRepeatBnt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGRepeatBnt-prefix.pch"; sourceTree = "<group>"; };
+		DDA58538E73BB9B3E6C3069B0F4AEAC3 /* Pods-SGRepeatBnt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGRepeatBnt_Tests-Info.plist"; sourceTree = "<group>"; };
+		E831D4362AB4282CF506B3B2F27EB943 /* Pods-SGRepeatBnt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGRepeatBnt_Example-Info.plist"; sourceTree = "<group>"; };
+		F309437A32A882B7B2028D1B0244A547 /* Pods-SGRepeatBnt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGRepeatBnt_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC44983E8A9A1B36DB6B807C42614BE0 /* SGButton+Repeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SGButton+Repeat.h"; path = "SGRepeatBnt/Classes/SGButton+Repeat.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B07815ABE800B02BA6EE00305C30EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7C14C0F52C2CB7257C8CA197215389 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F60DBD5A1044E5A066CBCD15A67AE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AA5F36376E2C723F72430CA7EC2919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB2E0B2AEC56B3033D8B0869806A6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88ED2A51606E701462D67838F4B02E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5DF9DDB078A9C6C53BC5A74BFA6B2C /* SGRepeatBnt */ = {
+			isa = PBXGroup;
+			children = (
+				FC44983E8A9A1B36DB6B807C42614BE0 /* SGButton+Repeat.h */,
+				76BC66985468F858840170051418B804 /* SGButton+Repeat.m */,
+				93E93BC21B1BD9CDD1B15FD9608DAB1D /* Pod */,
+				AF4EE5F946AD239EDC5F092BD7DC42E5 /* Support Files */,
+			);
+			name = SGRepeatBnt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3FDD1FBEBD92AA13A2DF2401354168AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A5AE738A5D73CB8CEE01E0079C0796 /* Pods_SGRepeatBnt_Example.framework */,
+				CC594A09F77F9BA5C22317ADA6D26DAE /* Pods_SGRepeatBnt_Tests.framework */,
+				ADD7C2C489B7D5C467FCCF99385F3007 /* SGRepeatBnt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E93BC21B1BD9CDD1B15FD9608DAB1D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				59648FE9055FF493FA39ADD1FFFC9364 /* LICENSE */,
+				826BAB579C6F45553ABD3ACC55153020 /* README.md */,
+				CC32DB7C6387CACD49C6C20CB3C3E3F9 /* SGRepeatBnt.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF4EE5F946AD239EDC5F092BD7DC42E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				550758322A19E86CC99C09355769CFB9 /* SGRepeatBnt.modulemap */,
+				B1AAEA2896A40B2B8D795FDA02EEE7C9 /* SGRepeatBnt-dummy.m */,
+				9BD6BD27D737DB623EA5E15C481D9DB8 /* SGRepeatBnt-Info.plist */,
+				DB1E513F745FD6AAF04BBCA47F859BC2 /* SGRepeatBnt-prefix.pch */,
+				6A2DC2DDB0239AC73971FC95593ABCBA /* SGRepeatBnt-umbrella.h */,
+				B41F6B360D86EBE2393A2ED8B674DFD7 /* SGRepeatBnt.debug.xcconfig */,
+				DAA9FD764706558F8A8C6466D73A767C /* SGRepeatBnt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGRepeatBnt";
+			sourceTree = "<group>";
+		};
+		C037AB2CCF1F8D6935A806D7C1DE9B66 /* Pods-SGRepeatBnt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2210009A2D85051ACE8265319B725 /* Pods-SGRepeatBnt_Example.modulemap */,
+				D4DA4C87E26A2B00B490E0822EC90133 /* Pods-SGRepeatBnt_Example-acknowledgements.markdown */,
+				680E34EF982E944F4820C85DDABE6793 /* Pods-SGRepeatBnt_Example-acknowledgements.plist */,
+				6A0C9DE9DA177AFF59382A3E2D36722A /* Pods-SGRepeatBnt_Example-dummy.m */,
+				479C584E2AE4FAFE74450E6FC9AC6BF4 /* Pods-SGRepeatBnt_Example-frameworks.sh */,
+				E831D4362AB4282CF506B3B2F27EB943 /* Pods-SGRepeatBnt_Example-Info.plist */,
+				F309437A32A882B7B2028D1B0244A547 /* Pods-SGRepeatBnt_Example-umbrella.h */,
+				D4530AF67D48076C2F0B499561FD5CBC /* Pods-SGRepeatBnt_Example.debug.xcconfig */,
+				7F7A02AD45373D4936AF1C031CEC118E /* Pods-SGRepeatBnt_Example.release.xcconfig */,
+			);
+			name = "Pods-SGRepeatBnt_Example";
+			path = "Target Support Files/Pods-SGRepeatBnt_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F24D0F329B6C56788EE935921BBD1207 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3FDD1FBEBD92AA13A2DF2401354168AF /* Products */,
+				F48DC9953C78C367ABE3A09A399A0B33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AC8ECE591C32FB464E8D5776738A23 /* Pods-SGRepeatBnt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73DD722525C81474E7885B3798E2B922 /* Pods-SGRepeatBnt_Tests.modulemap */,
+				4EAEC21D69CB5514E931DA42019C4872 /* Pods-SGRepeatBnt_Tests-acknowledgements.markdown */,
+				2A410313905BFB5AACDAF0B2DCAA6B2B /* Pods-SGRepeatBnt_Tests-acknowledgements.plist */,
+				78DB1AF9FDEC7D34FC2778D65956FC67 /* Pods-SGRepeatBnt_Tests-dummy.m */,
+				DDA58538E73BB9B3E6C3069B0F4AEAC3 /* Pods-SGRepeatBnt_Tests-Info.plist */,
+				CEB3E37FA89F21E03B65B8795BB82A82 /* Pods-SGRepeatBnt_Tests-umbrella.h */,
+				CE8C91FDEF820D05C609A2F4CAE8E107 /* Pods-SGRepeatBnt_Tests.debug.xcconfig */,
+				9A29AD27E0AD47D95F66F29B0965A8F6 /* Pods-SGRepeatBnt_Tests.release.xcconfig */,
+			);
+			name = "Pods-SGRepeatBnt_Tests";
+			path = "Target Support Files/Pods-SGRepeatBnt_Tests";
+			sourceTree = "<group>";
+		};
+		F24D0F329B6C56788EE935921BBD1207 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D5DF9DDB078A9C6C53BC5A74BFA6B2C /* SGRepeatBnt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F48DC9953C78C367ABE3A09A399A0B33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C037AB2CCF1F8D6935A806D7C1DE9B66 /* Pods-SGRepeatBnt_Example */,
+				D3AC8ECE591C32FB464E8D5776738A23 /* Pods-SGRepeatBnt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A84EFE370AB446BE447F6B7B6C83D5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F434D760573D94746AEAA4F26DF74C /* Pods-SGRepeatBnt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC794451331926683568F42A2D8A81E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3228507ACF0F75B582AE69FA7D3E4 /* SGButton+Repeat.h in Headers */,
+				03EF40907C82B42B4AC852AE586EC17E /* SGRepeatBnt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37C7A1401CCF8C41D7150689FF1CB8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB4356B45C32082AEFF2B686811BCB /* Pods-SGRepeatBnt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E53F8B5621F3AF231319FF39939D654 /* Pods-SGRepeatBnt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A70ADB6BF1EE76FF85A43CAEB69A7D /* Build configuration list for PBXNativeTarget "Pods-SGRepeatBnt_Tests" */;
+			buildPhases = (
+				E37C7A1401CCF8C41D7150689FF1CB8A /* Headers */,
+				D3CCCF23946C4BC974A5F9D2F30A8DD6 /* Sources */,
+				EAB2E0B2AEC56B3033D8B0869806A6E3 /* Frameworks */,
+				04AC1BEB190DF3184D17A81A8BB9A8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4260A5A78B2BFE0A137DBA9E25A4CB /* PBXTargetDependency */,
+			);
+			name = "Pods-SGRepeatBnt_Tests";
+			productName = "Pods-SGRepeatBnt_Tests";
+			productReference = CC594A09F77F9BA5C22317ADA6D26DAE /* Pods_SGRepeatBnt_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6DDA1753A74BB38A1EF08425356888B /* Pods-SGRepeatBnt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C8933A6D66861A1002568DB77E2F7C /* Build configuration list for PBXNativeTarget "Pods-SGRepeatBnt_Example" */;
+			buildPhases = (
+				0A84EFE370AB446BE447F6B7B6C83D5D /* Headers */,
+				601F25B554C1F001236A72B7AE1F286F /* Sources */,
+				5B07815ABE800B02BA6EE00305C30EDE /* Frameworks */,
+				BCEB9F6183F8639BDED064FF57F69EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A938189BBEB1D2AB2475690C46AF4A /* PBXTargetDependency */,
+			);
+			name = "Pods-SGRepeatBnt_Example";
+			productName = "Pods-SGRepeatBnt_Example";
+			productReference = 64A5AE738A5D73CB8CEE01E0079C0796 /* Pods_SGRepeatBnt_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F90C82DF7E0597DB916AA804CD7DDD1F /* SGRepeatBnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8739FEF22614518CA760C3CBD41C5CD7 /* Build configuration list for PBXNativeTarget "SGRepeatBnt" */;
+			buildPhases = (
+				BCC794451331926683568F42A2D8A81E /* Headers */,
+				C8E7F9953EE1D28ACDDCE4113CE7F630 /* Sources */,
+				8F60DBD5A1044E5A066CBCD15A67AE5F /* Frameworks */,
+				19A44111461FB522CEF845AEF6639AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGRepeatBnt;
+			productName = SGRepeatBnt;
+			productReference = ADD7C2C489B7D5C467FCCF99385F3007 /* SGRepeatBnt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3FDD1FBEBD92AA13A2DF2401354168AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DDA1753A74BB38A1EF08425356888B /* Pods-SGRepeatBnt_Example */,
+				4E53F8B5621F3AF231319FF39939D654 /* Pods-SGRepeatBnt_Tests */,
+				F90C82DF7E0597DB916AA804CD7DDD1F /* SGRepeatBnt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AC1BEB190DF3184D17A81A8BB9A8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A44111461FB522CEF845AEF6639AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEB9F6183F8639BDED064FF57F69EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601F25B554C1F001236A72B7AE1F286F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0687DC980035B35FA277B566C61A2C4 /* Pods-SGRepeatBnt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E7F9953EE1D28ACDDCE4113CE7F630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FCA42FCC405F930E89ABF1F3D0F5A8 /* SGButton+Repeat.m in Sources */,
+				59637AF36489DD7D5C60CBBB03964C8D /* SGRepeatBnt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CCCF23946C4BC974A5F9D2F30A8DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F358A0D7D8F26879868D0F80954E3FF4 /* Pods-SGRepeatBnt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4260A5A78B2BFE0A137DBA9E25A4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SGRepeatBnt_Example";
+			target = E6DDA1753A74BB38A1EF08425356888B /* Pods-SGRepeatBnt_Example */;
+			targetProxy = 01814119B9E99D484BF0BD626912D88B /* PBXContainerItemProxy */;
+		};
+		B0A938189BBEB1D2AB2475690C46AF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGRepeatBnt;
+			target = F90C82DF7E0597DB916AA804CD7DDD1F /* SGRepeatBnt */;
+			targetProxy = 3334B6B738570FDBEC9ED82805B40563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		201F31F5382522DF65AED9893D693069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7A02AD45373D4936AF1C031CEC118E /* Pods-SGRepeatBnt_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGRepeatBnt_Example/Pods-SGRepeatBnt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGRepeatBnt_Example/Pods-SGRepeatBnt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		293AF85A980ACBDA0F7E6B9E30FD76D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA9FD764706558F8A8C6466D73A767C /* SGRepeatBnt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGRepeatBnt/SGRepeatBnt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGRepeatBnt/SGRepeatBnt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGRepeatBnt/SGRepeatBnt.modulemap";
+				PRODUCT_MODULE_NAME = SGRepeatBnt;
+				PRODUCT_NAME = SGRepeatBnt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		950D3EAD7B3012A0D33797B6E172DF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A29AD27E0AD47D95F66F29B0965A8F6 /* Pods-SGRepeatBnt_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGRepeatBnt_Tests/Pods-SGRepeatBnt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGRepeatBnt_Tests/Pods-SGRepeatBnt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C571077E07CA480931DF94CFFF37C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8C91FDEF820D05C609A2F4CAE8E107 /* Pods-SGRepeatBnt_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGRepeatBnt_Tests/Pods-SGRepeatBnt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGRepeatBnt_Tests/Pods-SGRepeatBnt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA7A833CB9A7D5DA79AE11FB16657C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4530AF67D48076C2F0B499561FD5CBC /* Pods-SGRepeatBnt_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGRepeatBnt_Example/Pods-SGRepeatBnt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGRepeatBnt_Example/Pods-SGRepeatBnt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E108CA89B55616AF1CD2AF7C8D32B2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41F6B360D86EBE2393A2ED8B674DFD7 /* SGRepeatBnt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGRepeatBnt/SGRepeatBnt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGRepeatBnt/SGRepeatBnt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGRepeatBnt/SGRepeatBnt.modulemap";
+				PRODUCT_MODULE_NAME = SGRepeatBnt;
+				PRODUCT_NAME = SGRepeatBnt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C8933A6D66861A1002568DB77E2F7C /* Build configuration list for PBXNativeTarget "Pods-SGRepeatBnt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7A833CB9A7D5DA79AE11FB16657C54 /* Debug */,
+				201F31F5382522DF65AED9893D693069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8739FEF22614518CA760C3CBD41C5CD7 /* Build configuration list for PBXNativeTarget "SGRepeatBnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E108CA89B55616AF1CD2AF7C8D32B2DC /* Debug */,
+				293AF85A980ACBDA0F7E6B9E30FD76D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A70ADB6BF1EE76FF85A43CAEB69A7D /* Build configuration list for PBXNativeTarget "Pods-SGRepeatBnt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C571077E07CA480931DF94CFFF37C81 /* Debug */,
+				950D3EAD7B3012A0D33797B6E172DF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

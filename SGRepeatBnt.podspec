@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SGRepeatBnt'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SGRepeatBnt.'
+  s.version          = '1.0.0'
+  s.summary          = '一个防止暴力点击的按钮'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

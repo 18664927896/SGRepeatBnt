@@ -1,0 +1,6 @@
+framework module Pods_SGRepeatBnt_Example {
+  umbrella header "Pods-SGRepeatBnt_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
